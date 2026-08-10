@@ -1461,6 +1461,12 @@ grid-template-columns:1fr;
 }
 
 @media (max-width: 560px) {
+    h1 {
+        font-size: clamp(42px, 14vw, 76px);
+    }
+    h2 {
+        font-size: clamp(32px, 10vw, 58px);
+    }
     header {
         height: 80vh;
     }
@@ -1700,5 +1706,3 @@ grid-template-columns:1fr;
     }
  
 }
-
-
