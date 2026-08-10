@@ -4,6 +4,7 @@
     color: white;
     box-sizing: border-box;
     /* border: 1px solid red; */
+    user-select: none;
 }
 
 a {

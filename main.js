@@ -75,7 +75,7 @@ const translations = {
       "LET'S BUILD<br><span>SOMETHING EXCEPTIONAL.</span>",
 
     contactText:
-      "Looking for a developer who cares about quality as much as functionality? <br> Let's bring your idea to life.",
+      "Looking for a developer who cares about quality as much as functionality? Let's bring your idea to life.",
 
     email: "EMAIL",
     telegram: "TELEGRAM",
@@ -172,9 +172,10 @@ const translations = {
       "LASS UNS<br><span>ETWAS BESONDERES ERSCHAFFEN.</span>",
 
     contactText:
-      "Du suchst einen Entwickler mit Fokus auf Qualität und langfristige Lösungen?<br>Lass uns gemeinsam dein Projekt umsetzen.",
+      "Du suchst einen Entwickler mit Fokus auf Qualität und langfristige Lösungen? Lass uns gemeinsam dein Projekt umsetzen.",
 
     email: "E-MAIL",
+    telegram: "Telegram",
 
     footerPassion:
       "MIT LEIDENSCHAFT ENTWICKELT <span></span>",
@@ -271,6 +272,8 @@ const translations = {
       "Если вам нужен разработчик, который ценит качество не меньше функциональности — давайте обсудим ваш проект.",
 
     email: "EMAIL",
+    telegram: "Telegram",
+
 
     footerPassion:
       "СОЗДАНО С УВЛЕЧЕНИЕМ <span></span>",
@@ -317,7 +320,8 @@ const textBindings = [
     [".section4__card:nth-child(4) p", "deployText"],
     [".contact__content .acc", "contactLabel"],
     [".contact__text", "contactText"],
-    [".contact__link p", "email"],
+    [".contact__link p", "email",],
+    [".contact__link div:nth-child(2) p", "telegram"]
 ];
 
 const htmlBindings = [
