@@ -780,18 +780,18 @@ header nav {
     background-repeat: no-repeat;
 }
 .section3__card:nth-child(1)::before {
-    background-image: url("./media/Без\ названия\ \(5\).webp");
+    background-image: url("./media/project-i1.webp");
     filter: grayscale(1) brightness(1.5) contrast(1.5);
     background-size: 100%;
     background-position-y: 0%;
 }
 .section3__card:nth-child(2)::before {
-    background-image: url("./media/Без\ названия\ \(6\).webp");
+    background-image: url("./media/project-i2.webp");
     background-size: 100%;
     background-position-y: 50%;
 }
 .section3__card:nth-child(3)::before {
-    background-image: url("./media/Без\ названия\ \(8\).webp");
+    background-image: url("./media/project-i3.webp");
     background-size: 100%;
         background-position-y: 50%;
 }
@@ -857,13 +857,6 @@ header nav {
     height: 34px;
     border: 1px solid rgba(255, 255, 255, 0.28);
     background: rgba(255, 255, 255, 0.04);
-}
-
-.project__arrow::before {
-    content: "NE";
-    color: rgba(255, 255, 255, 0.78);
-    font-size: 10px;
-    font-weight: 900;
 }
 
 .section3__card__content {

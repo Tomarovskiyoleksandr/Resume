@@ -78,6 +78,7 @@ const translations = {
       "Looking for a developer who cares about quality as much as functionality? <br> Let's bring your idea to life.",
 
     email: "EMAIL",
+    telegram: "TELEGRAM",
 
     footerPassion:
       "CRAFTED WITH PASSION <span></span>",
