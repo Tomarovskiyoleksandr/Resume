@@ -1497,9 +1497,9 @@ grid-template-columns:1fr;
         padding: 0 24px;
     }
 
-    .content__item2 h1 {
+    /* .content__item2 h1 {
         font-size: clamp(54px, 18vw, 76px);
-    }
+    } */
 
     .hero__image {
         opacity: 0.34;
@@ -1533,9 +1533,9 @@ grid-template-columns:1fr;
         height: auto;
     }
 
-    .section1__content h2 {
+    /* .section1__content h2 {
         font-size: clamp(44px, 13vw, 62px);
-    }
+    } */
 
     .section1__text {
         max-width: 320px;
@@ -1703,6 +1703,10 @@ grid-template-columns:1fr;
     .contact__bg {
         right: -86vW;
         opacity: 0.5;
+    }
+
+    .contact__bottom p, .contact__bottom > span {
+        font-size: 8px;
     }
  
 }
