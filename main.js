@@ -278,13 +278,111 @@ const translations = {
     footerPassion:
       "СОЗДАНО С УВЛЕЧЕНИЕМ <span></span>",
   },
+
+  uk: {
+    navHome: "Головна",
+    navAbout: "Про мене",
+    navSkills: "Технології",
+    navProjects: "Проєкти",
+    navApproach: "Процес",
+    navContact: "Контакти",
+
+    discipline: "ДИСЦИПЛІНА",
+    focus: "ФОКУС",
+    code: "ТОЧНІСТЬ",
+
+    role: "// FULL STACK РОЗРОБНИК",
+
+    heroTitle:
+      "СТВОРЮЮ<br><span>ЦИФРОВІ ПРОДУКТИ</span>",
+
+    heroText:
+      "Розробляю швидкі та масштабовані вебзастосунки з чистою архітектурою, сучасними технологіями та увагою до кожної деталі.",
+
+    viewWork: "[ ПЕРЕГЛЯНУТИ ПРОЄКТИ ]",
+
+    aboutLabel: "// ПРО МЕНЕ",
+
+    aboutTitle:
+      "КОД ІЗ<br>СЕНСОМ.<br><span>СТВОРЕНО НАДОВГО.</span>",
+
+    aboutText:
+      "Я Full Stack розробник-самоучка, який перетворює ідеї на сучасні цифрові продукти. Роблю ставку на чистий код, високу продуктивність, надійну архітектуру та зручний користувацький досвід.",
+
+    moreAbout: "[ ДІЗНАТИСЯ БІЛЬШЕ ]",
+
+    skillsLabel: "// ТЕХНОЛОГІЇ",
+
+    skillsTitle:
+      "ІНСТРУМЕНТИ,<br>З ЯКИМИ Я ПРАЦЮЮ.",
+
+    viewSkills: "[ УСІ ТЕХНОЛОГІЇ ]",
+
+    projectsLabel: "// ВИБРАНІ ПРОЄКТИ",
+
+    projectsTitle:
+      "МОЇ<br>РОБОТИ.",
+
+    viewProjects: "[ УСІ ПРОЄКТИ ]",
+
+    projectStatus: "У РОЗРОБЦІ",
+
+    projectTypeApp: "ВЕБЗАСТОСУНОК",
+
+    projectTypeSite: "ВЕБСАЙТ",
+
+    approachLabel: "// ПРОЦЕС",
+
+    approachTitle:
+      "АНАЛІЗ.<br>ПЛАН. РОЗРОБКА. ПОКРАЩЕННЯ.",
+
+    approachText:
+      "Кожен проєкт проходить зрозумілий процес розробки з фокусом на якість, масштабованість і довгострокову підтримку.",
+
+    workTogether: "[ ПОЧАТИ ПРОЄКТ ]",
+
+    discover: "АНАЛІЗ",
+
+    discoverText:
+      "Вивчення ідеї, цілей та вимог проєкту.",
+
+    plan: "ПЛАНУВАННЯ",
+
+    planText:
+      "Проєктування архітектури, інтерфейсу та стратегії розробки.",
+
+    build: "РОЗРОБКА",
+
+    buildText:
+      "Написання чистого, ефективного та підтримуваного коду.",
+
+    deploy: "ЗАПУСК",
+
+    deployText:
+      "Тестування, оптимізація та публікація готового продукту.",
+
+    contactLabel: "// КОНТАКТИ",
+
+    contactTitle:
+      "ДАВАЙТЕ СТВОРИМО<br><span>ЩОСЬ ВИДАТНЕ.</span>",
+
+    contactText:
+      "Потрібен розробник, який цінує якість не менше за функціональність? Давайте разом втілимо вашу ідею в життя.",
+
+    email: "EMAIL",
+    telegram: "Telegram",
+
+    footerPassion:
+      "СТВОРЕНО З ПРИСТРАСТЮ <span></span>",
+  },
 };
 
-const languageOrder = ["en", "de", "ru"];
+const languageOrder = ["en", "de", "ru", "uk"];
 const languageLabels = {
     en: "EN",
     de: "DE",
     ru: "RU",
+    uk: "UK"
 };
 
 const textBindings = [
